@@ -9,8 +9,8 @@ if os.path.exists("local.env"):
 API_ID = int(getenv("API_ID", "26495505")) #optional
 API_HASH = getenv("API_HASH", "41ce1aa633c6ae79b928ddd4caefc245") #optional
 
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
-OWNER_ID = int(getenv("OWNER_ID"))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "1668494031").split()))
+OWNER_ID = int(getenv("1668494031"))
 MONGO_URL = getenv("mongodb+srv://BrandedSupportGroup:BRANDED_WORLD@cluster0.v4odcq9.mongodb.net/?retryWrites=true&w=majority")
 BOT_TOKEN = getenv("BOT_TOKEN", "6265302593:AAGiQvKqmgyunJcicKnfo4tD3CGy09HAlXc")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/ee5d441f240fdd88e5a8b.jpg')

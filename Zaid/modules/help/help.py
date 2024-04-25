@@ -80,12 +80,12 @@ async def module_helper(client: Client, message: Message):
     elif not message.reply_to_message and len(cmd) == 1:
         ac = PrettyTable()
         ac.header = False
-        ac.title = "Zaid-UserBot Plugins"
+        ac.title = "FROZEN-UserBot Plugins"
         ac.align = "l"
         for x in split_list(sorted(CMD_HELP.keys()), 2):
             ac.add_row([x[0], x[1] if len(x) >= 2 else None])
         await edit_or_reply(
-            message, f"```{str(ac)}```\n• @TheSupportChat × @TheUpdatesChannel •"
+            message, f"```{str(ac)}```\n• @frozenupdates1 × @Frozensupport1 •"
         )
         await message.reply(
             f"**Usage**:`.help broadcast` **To View Module details**"

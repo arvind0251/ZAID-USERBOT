@@ -15,7 +15,7 @@ _SCRTXT = """
 **Cc Found ->** {}
 
 
-🥷 **Scrapped By ->** {}
+🥷 **Scrapped By ->** {FROZEN bots}
 👨‍🎤 **Developed By ->** @frozenupdates1 🐲
 """
 

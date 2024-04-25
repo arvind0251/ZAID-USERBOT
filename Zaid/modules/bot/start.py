@@ -16,10 +16,11 @@ PHONE_NUMBER_TEXT = (
 async def hello(client: app, message):
     buttons = [
            [
-                InlineKeyboardButton("✘ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="t.me/TheUpdatesChannel"),
+                InlineKeyboardButton("✘ ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="t.me/freetelegrampremium0"),
+
             ],
             [
-                InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="t.me/TheSupportChat"),
+                InlineKeyboardButton("✘ ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ", url="t.me/Frozensupport1"),
             ],
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -33,11 +34,11 @@ async def clone(bot: app, msg: Message):
     cmd = msg.command
     phone = msg.command[1]
     try:
-        await text.edit("Booting Your Client")
+        await text.edit("chalu hora ha ruk thode darr ")
                    # change this Directry according to ur repo
         client = Client(name="Melody", api_id=API_ID, api_hash=API_HASH, session_string=phone, plugins=dict(root="Zaid/modules"))
         await client.start()
         user = await client.get_me()
-        await msg.reply(f"Your Client Has Been Successfully As {user.first_name} ✅.")
+        await msg.reply(f"ha ho gya chalu is name sa ha na {user.first_name} ✅.chal ab galdi sa @Frozensupport1 join karr la ")
     except Exception as e:
         await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
